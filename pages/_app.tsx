@@ -8,7 +8,7 @@ import React, { useEffect } from 'react';
 // import TagManager from 'react-gtm-module';
 // import AppConfig from '../appConfig';
 import { StoreContextProvider } from '../components/context/store';
-import Proloader from '../components/Proloader';
+// import Proloader from '../components/Proloader';
 import { seo } from '../components/seo/defaultseo';
 // import { checktoken } from '../services/user/user.service';
 // import { fb } from '../utils/fb';
@@ -44,7 +44,7 @@ import '../public/assets/css/testimonial.css'
 import '../public/assets/css/test-pipeline.css'
 import '../public/assets/css/track.css'
 import '../public/assets/css/usertype.css'
-import '../public/assets/css/proloader.css'
+// import '../public/assets/css/proloader.css'
 
 // import 'react-modal-video/scss/modal-video.scss';
 
@@ -156,7 +156,7 @@ function MyApp({ Component, pageProps }: any) {
         <>
             <DefaultSeo {...seo} />
             <StoreContextProvider>
-                <Proloader />
+                {/* <Proloader /> */}
                 <Component {...pageProps} />
             </StoreContextProvider>
         </>
