@@ -8,7 +8,7 @@ import React, { useEffect } from 'react';
 // import TagManager from 'react-gtm-module';
 // import AppConfig from '../appConfig';
 import { StoreContextProvider } from '../components/context/store';
-// import Proloader from '../components/Proloader';
+import Proloader from '../components/Proloader';
 import { seo } from '../components/seo/defaultseo';
 // import { checktoken } from '../services/user/user.service';
 // import { fb } from '../utils/fb';
@@ -156,7 +156,7 @@ function MyApp({ Component, pageProps }: any) {
         <>
             <DefaultSeo {...seo} />
             <StoreContextProvider>
-                {/* <Proloader /> */}
+                <Proloader />
                 <Component {...pageProps} />
             </StoreContextProvider>
         </>
