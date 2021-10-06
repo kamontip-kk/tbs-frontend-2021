@@ -175,11 +175,11 @@ class MyDocument extends Document {
                         defer
                         src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/js/main.js`}
                     ></script>
-                    <script
+                    {/* <script
                         defer
                         src="https://static.cloudflareinsights.com/beacon.min.js"
                         data-cf-beacon='{"token": "27b8dd9e1c1f41faab414c1a203fb227"}'
-                    ></script>
+                    ></script> */}
                 </body>
             </Html>
         );
