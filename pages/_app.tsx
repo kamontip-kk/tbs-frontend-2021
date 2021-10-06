@@ -14,8 +14,8 @@ import { seo } from '../components/seo/defaultseo';
 // import { fb } from '../utils/fb';
 // import Cookies from 'js-cookie';
 
-// import '../public/assets/css/style.css'
-// import '../public/assets/css/responsive.css'
+import '../public/assets/css/style.css'
+import '../public/assets/css/responsive.css'
 // import '../public/assets/css/globals.css'
 // import '../public/assets/css/header.css'
 // import '../public/assets/css/footer.css'
