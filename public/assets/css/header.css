@@ -527,6 +527,29 @@ a .text_title_left {
     background-size: cover;
 }
 
+/* .new_icon_title_menu_resource05:before {
+    content: '';
+    background-image: url('../img/menu-icon_resource-icon05.svg');
+    position: absolute;
+    display: inline-block;
+    background-size: cover;
+}
+
+.new_icon_title_menu_resource06:before {
+    content: '';
+    background-image: url('../img/menu-icon_resource-icon06.svg');
+    position: absolute;
+    display: inline-block;
+    background-size: cover;
+}
+.new_icon_title_menu_resource07:before {
+    content: '';
+    background-image: url('../img/menu-icon_resource-icon07.svg');
+    position: absolute;
+    display: inline-block;
+    background-size: cover;
+} */
+
 .new_icon_title_menu_support01:before {
     content: '';
     background-image: url('../img/menu-icon_support-icon01.svg');
