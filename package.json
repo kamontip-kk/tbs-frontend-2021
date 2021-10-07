@@ -6,7 +6,8 @@
     "prettier-format": "prettier --config .prettierrc '**/*.tsx' --write",
     "dev": "node server.js",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js"
+    "start": "NODE_ENV=production node server.js",
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "@types/jquery": "^3.3.38",
