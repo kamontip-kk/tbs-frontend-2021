@@ -1145,9 +1145,9 @@ const HeaderSubmodule = ({
                                                             width="50"
                                                             height="50"
                                                         /> */}
-                                                        {/* <span className="icon-title-menu-mobile">
+                                                        <span className="icon-title-menu-mobile">
                                                             <Image loader={myLoader} src="menu-icon_resource-icon05.svg" alt="menu-icon_resource-icon05.svg" width={50} height={50}/>
-                                                        </span> */}
+                                                        </span>
                                                         {t.header.Marketing}
                                                     </a>
                                                     </Link>
@@ -1164,9 +1164,9 @@ const HeaderSubmodule = ({
                                                             width="50"
                                                             height="50"
                                                         /> */}
-                                                        {/* <span className="icon-title-menu-mobile">
+                                                        <span className="icon-title-menu-mobile">
                                                             <Image loader={myLoader} src="menu-icon_resource-icon06.svg" alt="menu-icon_resource-icon06.svg" width={50} height={50}/>
-                                                        </span> */}
+                                                        </span>
                                                         {t.header.Tech}
                                                     </a>
                                                     </Link>
@@ -1183,9 +1183,9 @@ const HeaderSubmodule = ({
                                                             width="50"
                                                             height="50"
                                                         /> */}
-                                                        {/* <span className="icon-title-menu-mobile">
+                                                        <span className="icon-title-menu-mobile">
                                                             <Image loader={myLoader} src="menu-icon_resource-icon07.svg" alt="menu-icon_resource-icon07.svg" width={50} height={50}/>
-                                                        </span> */}
+                                                        </span>
                                                         {t.header['ThaiBulkSMS Features']}
                                                     </a>
                                                     </Link>
