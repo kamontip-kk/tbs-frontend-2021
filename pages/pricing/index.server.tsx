@@ -3,9 +3,9 @@ import Layout from '../../components/Layout';
 import PricingSection from '../../components/pricing/PricingSection';
 import AllPricing from '../../components/pricing/AllPricing';
 import FaqSection from '../../components/pricing/FaqSection';
-import BacktoTop from '../../components/BacktoTop';
+import BacktoTop from '../../components/BacktoTop.client';
 import Head from 'next/head';
-import * as ProductService from '../../services/shopping/product.service';
+import * as ProductService from '../../services/shopping/product.service.server';
 import { PricingProps } from '../../services/shopping/pricing.model';
 
 import { NextSeo } from 'next-seo';
@@ -101,7 +101,7 @@ export const getStaticProps = async () => {
     return {
         props: {
             packages: packageAll ? packageAll.packages : {},
-            namespacesRequired: ['Pricing'],
+            // namespacesRequired: ['Pricing'],
         },
     };
 };

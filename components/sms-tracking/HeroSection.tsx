@@ -41,9 +41,9 @@ const HeroSectionV4 = () => {
     )
 }
     
-HeroSectionV4.getInitialProps = async () => ({
-    namespacesRequired: ['Sms-tracking'],
-});
+// HeroSectionV4.getInitialProps = async () => ({
+//     namespacesRequired: ['Sms-tracking'],
+// });
 
 // HeroSectionV4.propTypes = {
 //     t: PropTypes.func.isRequired,

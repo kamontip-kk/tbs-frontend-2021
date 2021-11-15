@@ -65,9 +65,9 @@ const CalCreditSection = ({ }: any) => {
     );
 };
 
-CalCreditSection.getInitialProps = async () => ({
-    namespacesRequired: ['CalCredit'],
-});
+// CalCreditSection.getInitialProps = async () => ({
+//     namespacesRequired: ['CalCredit'],
+// });
 
 // CalCreditSection.propTypes = {
 //     t: PropTypes.func.isRequired,

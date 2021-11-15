@@ -5,7 +5,7 @@ import HeroSection from '../../components/speed-and-reliable/HeroSection';
 import SmsSection from '../../components/speed-and-reliable/SmsSection';
 import SimpleIconSection from '../../components/speed-and-reliable/SimpleIconSection';
 import CtaSection from '../../components/speed-and-reliable/CtaSection';
-import BacktoTop from '../../components/BacktoTop';
+import BacktoTop from '../../components/BacktoTop.client';
 import Head from 'next/head';
 import { NextSeo } from 'next-seo';
 import { seo } from '../../components/seo/speed-and-reliable';
@@ -49,10 +49,10 @@ const Speed = () => {
 //   namespacesRequired: ['SpeedMeta'],
 // });
 export default Speed;
-export const getStaticProps = async () => {
-    return {
-        props: {
-            namespacesRequired: ['Speed-and-reliable'],
-        },
-    };
-};
+// export const getStaticProps = async () => {
+//     return {
+//         props: {
+//             namespacesRequired: ['Speed-and-reliable'],
+//         },
+//     };
+// };

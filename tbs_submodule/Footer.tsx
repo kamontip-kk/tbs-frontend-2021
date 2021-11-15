@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import React, { useEffect } from 'react';
 import appConfig from '../appConfig';
 import Link from "next/dist/client/link";
@@ -335,11 +335,11 @@ const Footer = () => {
         </div>
     );
 };
-Footer.getInitialProps = async () => ({
-    namespacesRequired: ['Footer'],
-});
+// Footer.getInitialProps = async () => ({
+//     namespacesRequired: ['Footer'],
+// });
 
-Footer.propTypes = {
-    t: PropTypes.func.isRequired,
-};
+// Footer.propTypes = {
+//     t: PropTypes.func.isRequired,
+// };
 export default React.memo(Footer);

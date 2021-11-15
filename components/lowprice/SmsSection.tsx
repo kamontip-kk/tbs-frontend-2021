@@ -102,9 +102,9 @@ const SmsSectionV3 = () => {
     )
 }
 
-SmsSectionV3.getInitialProps = async () => ({
-    namespacesRequired: ['Otp'],
-});
+// SmsSectionV3.getInitialProps = async () => ({
+//     namespacesRequired: ['Otp'],
+// });
 
 // SmsSectionV3.propTypes = {
 //     t: PropTypes.func.isRequired,

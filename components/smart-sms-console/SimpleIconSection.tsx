@@ -146,9 +146,9 @@ const SimpleIconSection = () => {
     )
 }
     
-SimpleIconSection.getInitialProps = async () => ({
-    namespacesRequired: ['SmartSmsConsole'],
-});
+// SimpleIconSection.getInitialProps = async () => ({
+//     namespacesRequired: ['SmartSmsConsole'],
+// });
 
 // SimpleIconSection.propTypes = {
 //     t: PropTypes.func.isRequired,

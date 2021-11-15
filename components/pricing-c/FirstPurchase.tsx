@@ -9,7 +9,7 @@ import numeral from 'numeral';
 import TagManager from 'react-gtm-module';
 import Cookie from 'js-cookie';
 import appConfig from '../../appConfig';
-import { CheckFirstPurchase } from '../../services/shopping/payment.service';
+import { CheckFirstPurchase } from '../../services/shopping/payment.service.server';
 import Image from 'next/image';
 
 const myLoader = ({src}:any) => {
@@ -399,9 +399,9 @@ const FirstPurchase = ({ packages, packagesNormal }: any) => {
     );
 };
 
-FirstPurchase.getInitialProps = async () => ({
-    namespacesRequired: ['Pricing'],
-});
+// FirstPurchase.getInitialProps = async () => ({
+//     namespacesRequired: ['Pricing'],
+// });
 
 // FirstPurchase.propTypes = {
 //     t: PropTypes.func.isRequired,

@@ -74,9 +74,9 @@ const TrackSectionV2 = () => {
     )
 }
     
-TrackSectionV2.getInitialProps = async () => ({
-    namespacesRequired: ['Sms-tracking'],
-});
+// TrackSectionV2.getInitialProps = async () => ({
+//     namespacesRequired: ['Sms-tracking'],
+// });
 
 // TrackSectionV2.propTypes = {
 //     t: PropTypes.func.isRequired,

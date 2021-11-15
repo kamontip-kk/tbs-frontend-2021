@@ -3,7 +3,7 @@ import Layout from '../../../components/Layout';
 // import Proloader from '../../components/Proloader';
 import HeroSection from '../../../components/faq/HeroSection';
 import TabContent from '../../../components/faq/TabContent';
-import BacktoTop from '../../../components/BacktoTop';
+import BacktoTop from '../../../components/BacktoTop.client';
 import Head from 'next/head';
 import { NextSeo } from 'next-seo';
 import { seo } from '../../../components/seo/why-thaibulksms';
@@ -58,10 +58,10 @@ const FAQ = () => {
 
 export default FAQ;
 
-export const getStaticProps = async () => {
-    return {
-        props: {
-            namespacesRequired: ['FAQ'],
-        },
-    };
-};
+// export const getStaticProps = async () => {
+//     return {
+//         props: {
+//             namespacesRequired: ['FAQ'],
+//         },
+//     };
+// };

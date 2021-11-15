@@ -40,9 +40,9 @@ const SmartSmsConsoleContentSection = () => {
     )
 }
     
-SmartSmsConsoleContentSection.getInitialProps = async () => ({
-    namespacesRequired: ['SmartSmsConsole'],
-});
+// SmartSmsConsoleContentSection.getInitialProps = async () => ({
+//     namespacesRequired: ['SmartSmsConsole'],
+// });
 
 // SmartSmsConsoleContentSection.propTypes = {
 //     t: PropTypes.func.isRequired,

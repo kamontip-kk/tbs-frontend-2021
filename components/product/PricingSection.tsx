@@ -199,9 +199,9 @@ const PricingSection = () => {
     )
 }
     
-PricingSection.getInitialProps = async () => ({
-    namespacesRequired: ['Product'],
-});
+// PricingSection.getInitialProps = async () => ({
+//     namespacesRequired: ['Product'],
+// });
 
 // PricingSection.propTypes = {
 //     t: PropTypes.func.isRequired,

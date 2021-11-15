@@ -1,8 +1,8 @@
 import React from 'react';
 import Layout from '../../components/Layout';
-import HeroSection from '../../components/condition/HeroSection';
-import Help from '../../components/Help';
-import BacktoTop from '../../components/BacktoTop';
+import HeroSection from '../../components/condition/HeroSection.client';
+import Help from '../../components/Helpclient';
+import BacktoTop from '../../components/BacktoTop.client';
 import Head from 'next/head';
 import Image from 'next/image'
 import { NextSeo } from 'next-seo';
@@ -67,10 +67,10 @@ const Condition = () => {
 // export default withTranslation('Condition')(Condition);
 export default Condition;
 
-export const getStaticProps = async () => {
-    return {
-        props: {
-            namespacesRequired: ['Condition'],
-        },
-    };
-};
+// export const getStaticProps = async () => {
+//     return {
+//         props: {
+//             namespacesRequired: ['Condition'],
+//         },
+//     };
+// };

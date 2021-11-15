@@ -55,9 +55,9 @@ const GlobeSection = () => {
     
 }
 
-GlobeSection.getInitialProps = async () => ({
-    namespacesRequired: ['Home'],
-});
+// GlobeSection.getInitialProps = async () => ({
+//     namespacesRequired: ['Home'],
+// });
 
 // GlobeSection.propTypes = {
 //     t: PropTypes.func.isRequired,

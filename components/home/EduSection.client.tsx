@@ -122,9 +122,9 @@ const EduSection = () => {
     </div>
     )
 }
-EduSection.getInitialProps = async () => ({
-    namespacesRequired: ['Home'],
-});
+// EduSection.getInitialProps = async () => ({
+//     namespacesRequired: ['Home'],
+// });
 
 // EduSection.propTypes = {
 //     t: PropTypes.func.isRequired,

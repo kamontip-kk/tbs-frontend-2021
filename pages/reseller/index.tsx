@@ -1,7 +1,7 @@
 import { NextSeo } from 'next-seo';
 import Head from 'next/head';
 import React from 'react';
-import BacktoTop from '../../components/BacktoTop';
+import BacktoTop from '../../components/BacktoTop.client';
 import Layout from '../../components/Layout';
 import AdvantagesSection from '../../components/reseller/AdvantagesSection';
 import CtaSection from '../../components/reseller/CtaSection';
@@ -62,10 +62,10 @@ const Reseller = () => {
 }
 
 export default Reseller;
-export const getStaticProps = async () => {
-    return {
-        props: {
-            namespacesRequired: ['ResellerPage'],
-        },
-    };
-};
+// export const getStaticProps = async () => {
+//     return {
+//         props: {
+//             namespacesRequired: ['ResellerPage'],
+//         },
+//     };
+// };

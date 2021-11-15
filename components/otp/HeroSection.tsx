@@ -41,9 +41,9 @@ const HeroSectionV3 = () => {
     </div>
     )
 }
-HeroSectionV3.getInitialProps = async () => ({
-    namespacesRequired: ['Otp'],
-});
+// HeroSectionV3.getInitialProps = async () => ({
+//     namespacesRequired: ['Otp'],
+// });
 
 // HeroSectionV3.propTypes = {
 //     t: PropTypes.func.isRequired,

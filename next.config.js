@@ -21,6 +21,10 @@ module.exports = {
       defaultLocale: 'th',
       keySeparator: '::',
       nsSeparator: ':::',
+      // pages: {
+      //   '*' : ['Home'],
+      //   '/condition': ['Condition'],
+      // }
       // domains: [
       //   {
       //     domain: 'localhost3000',
@@ -34,6 +38,11 @@ module.exports = {
     },
     images: {
       domains: ["assets.thaibulksms.com"],
+      formats: ['image/avif', 'image/webp'],
     },
+    // experimental: {
+    //   serverComponents: true,
+    //   concurrentFeatures: true
+    // },
   };
   

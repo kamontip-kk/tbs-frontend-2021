@@ -11,7 +11,7 @@ import Constant from './constants';
 import {
     quickRegisterStep1,
     quickRegisterStep2,
-} from '../../services/user/user.service';
+} from '../../services/user/user.service.server';
 import Link from 'next/dist/client/link';
 
 // from '../../services/user/user.service';
@@ -478,9 +478,9 @@ const QuickRegister = () => {
     );
 };
 
-QuickRegister.getInitialProps = async () => ({
-    namespacesRequired: ['Home'],
-});
+// QuickRegister.getInitialProps = async () => ({
+//     namespacesRequired: ['Home'],
+// });
 
 // QuickRegister.propTypes = {
 //     t: PropTypes.func.isRequired,

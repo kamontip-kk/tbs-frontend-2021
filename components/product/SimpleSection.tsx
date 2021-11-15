@@ -101,9 +101,9 @@ const SimpleSection = () => {
 }
     
 
-SimpleSection.getInitialProps = async () => ({
-    namespacesRequired: ['Product'],
-});
+// SimpleSection.getInitialProps = async () => ({
+//     namespacesRequired: ['Product'],
+// });
 
 // SimpleSection.propTypes = {
 //     t: PropTypes.func.isRequired,

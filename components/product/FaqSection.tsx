@@ -417,9 +417,9 @@ const FaqSection = () => {
     </div>
     )
 }
-FaqSection.getInitialProps = async () => ({
-    namespacesRequired: ['Product'],
-});
+// FaqSection.getInitialProps = async () => ({
+//     namespacesRequired: ['Product'],
+// });
 
 // FaqSection.propTypes = {
 //     t: PropTypes.func.isRequired,

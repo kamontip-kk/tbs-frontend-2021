@@ -1,8 +1,8 @@
 import React from 'react';
 import Layout from '../../components/Layout';
 import HeroSection from '../../components/cookie-policy/HeroSection';
-import Help from '../../components/Help';
-import BacktoTop from '../../components/BacktoTop';
+import Help from '../../components/Helpclient';
+import BacktoTop from '../../components/BacktoTop.client';
 import Head from 'next/head';
 import Image from 'next/image';
 // import { withTranslation } from '../../i18n';
@@ -77,10 +77,10 @@ const Condition = () => {
 // });
 // export default withTranslation('CookiePolicy')(Condition);
 export default Condition;
-export const getStaticProps = async () => {
-    return {
-        props: {
-            namespacesRequired: ['CookiePolicy'],
-        },
-    };
-};
+// export const getStaticProps = async () => {
+//     return {
+//         props: {
+//             namespacesRequired: ['CookiePolicy'],
+//         },
+//     };
+// };

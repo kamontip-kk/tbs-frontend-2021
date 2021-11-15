@@ -362,9 +362,9 @@ const SimpleIconSection = () => {
     
 }
 
-SimpleIconSection.getInitialProps = async () => ({
-    namespacesRequired: ['Developer'],
-});
+// SimpleIconSection.getInitialProps = async () => ({
+//     namespacesRequired: ['Developer'],
+// });
 
 // SimpleIconSection.propTypes = {
 //     t: PropTypes.func.isRequired,

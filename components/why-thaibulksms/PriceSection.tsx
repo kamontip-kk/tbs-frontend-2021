@@ -146,9 +146,9 @@ const WhyPriceSection = () => {
     )
 }
 
-WhyPriceSection.getInitialProps = async () => ({
-    namespacesRequired: ['WhyThaibulksms'],
-});
+// WhyPriceSection.getInitialProps = async () => ({
+//     namespacesRequired: ['WhyThaibulksms'],
+// });
 
 // WhyPriceSection.propTypes = {
 //     t: PropTypes.func.isRequired,

@@ -8,7 +8,7 @@ import PriceSection from '../../components/why-thaibulksms/PriceSection';
 import TrackSection from '../../components/why-thaibulksms/TrackSection';
 import CtaSection from '../../components/why-thaibulksms/CtaSection';
 import FaqSection from '../../components/why-thaibulksms/FaqSection';
-import BacktoTop from '../../components/BacktoTop';
+import BacktoTop from '../../components/BacktoTop.client';
 import Head from 'next/head';
 import { NextSeo } from 'next-seo';
 import { seo } from '../../components/seo/otp';
@@ -68,10 +68,10 @@ const WhyThaibulksms = () => {
 
 export default WhyThaibulksms;
 
-export const getStaticProps = async () => {
-    return {
-        props: {
-            namespacesRequired: ['WhyThaibulksms'],
-        },
-    };
-};
+// export const getStaticProps = async () => {
+//     return {
+//         props: {
+//             namespacesRequired: ['WhyThaibulksms'],
+//         },
+//     };
+// };

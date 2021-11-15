@@ -219,9 +219,9 @@ const SimpleIconSection = () => {
     )
 }
 
-SimpleIconSection.getInitialProps = async () => ({
-    namespacesRequired: ['SMSAPIPage'],
-});
+// SimpleIconSection.getInitialProps = async () => ({
+//     namespacesRequired: ['SMSAPIPage'],
+// });
 
 // SimpleIconSection.propTypes = {
 //     t: PropTypes.func.isRequired,

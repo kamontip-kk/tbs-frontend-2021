@@ -292,9 +292,9 @@ const TabContent = () => {
     );
 };
 
-TabContent.getInitialProps = async () => ({
-    namespacesRequired: ['FAQ'],
-});
+// TabContent.getInitialProps = async () => ({
+//     namespacesRequired: ['FAQ'],
+// });
 
 // TabContent.propTypes = {
 //     t: PropTypes.func.isRequired,

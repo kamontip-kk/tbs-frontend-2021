@@ -125,9 +125,9 @@ const TrackSection = () => {
     )
 }
     
-TrackSection.getInitialProps = async () => ({
-    namespacesRequired: ['SmartSmsConsole'],
-});
+// TrackSection.getInitialProps = async () => ({
+//     namespacesRequired: ['SmartSmsConsole'],
+// });
 
 // TrackSection.propTypes = {
 //     t: PropTypes.func.isRequired,

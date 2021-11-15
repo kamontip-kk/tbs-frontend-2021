@@ -134,9 +134,9 @@ const SimpleIconSectionV2 = () => {
     )
 }
     
-SimpleIconSectionV2.getInitialProps = async () => ({
-    namespacesRequired: ['Sms-tracking'],
-});
+// SimpleIconSectionV2.getInitialProps = async () => ({
+//     namespacesRequired: ['Sms-tracking'],
+// });
 
 // SimpleIconSectionV2.propTypes = {
 //     t: PropTypes.func.isRequired,

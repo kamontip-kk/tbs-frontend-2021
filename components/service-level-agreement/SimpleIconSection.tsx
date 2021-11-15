@@ -128,9 +128,9 @@ const SimpleIconSection = ({  }: any) => {
   )
 }
   
-SimpleIconSection.getInitialProps = async () => ({
-  namespacesRequired: ['Otp'],
-});
+// SimpleIconSection.getInitialProps = async () => ({
+//   namespacesRequired: ['Otp'],
+// });
 
 // SimpleIconSection.propTypes = {
 //   t: PropTypes.func.isRequired,

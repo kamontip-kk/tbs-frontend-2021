@@ -39,9 +39,9 @@ const HeroSectionWhy = () => {
     )
 }
     
-HeroSectionWhy.getInitialProps = async () => ({
-    namespacesRequired: ['WhyThaibulksms'],
-});
+// HeroSectionWhy.getInitialProps = async () => ({
+//     namespacesRequired: ['WhyThaibulksms'],
+// });
 
 // HeroSectionWhy.propTypes = {
 //     t: PropTypes.func.isRequired,

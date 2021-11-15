@@ -73,9 +73,9 @@ const TrackSection = () => {
     )
     
 }
-TrackSection.getInitialProps = async () => ({
-    namespacesRequired: ['LocationBasedSMSPage'],
-});
+// TrackSection.getInitialProps = async () => ({
+//     namespacesRequired: ['LocationBasedSMSPage'],
+// });
 
 // TrackSection.propTypes = {
 //     t: PropTypes.func.isRequired,

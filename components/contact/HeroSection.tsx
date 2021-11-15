@@ -6,7 +6,7 @@ import Swal from 'sweetalert2';
 import { useRouter } from 'next/router'
 import th from '../../public/locales/th/Contact.json';
 import en from '../../public/locales/en/Contact.json';
-import { sendContact } from '../../services/contact/contact.service';
+import { sendContact } from '../../services/contact/contact.service.server';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -435,9 +435,9 @@ const HeroSection = () => {
     );
 };
 
-HeroSection.getInitialProps = async () => ({
-    namespacesRequired: ['Contact'],
-});
+// HeroSection.getInitialProps = async () => ({
+//     namespacesRequired: ['Contact'],
+// });
 
 // HeroSection.propTypes = {
 //     t: PropTypes.func.isRequired,

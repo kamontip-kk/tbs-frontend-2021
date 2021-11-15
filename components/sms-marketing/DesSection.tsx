@@ -81,9 +81,9 @@ const SimpleIconSection = () => {
     )
 }
     
-SimpleIconSection.getInitialProps = async () => ({
-    namespacesRequired: ['Sms-marketing'],
-});
+// SimpleIconSection.getInitialProps = async () => ({
+//     namespacesRequired: ['Sms-marketing'],
+// });
 
 // SimpleIconSection.propTypes = {
 //     t: PropTypes.func.isRequired,

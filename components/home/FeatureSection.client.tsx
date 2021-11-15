@@ -105,9 +105,9 @@ const FeatureSection = () => {
     )
 }
 
-FeatureSection.getInitialProps = async () => ({
-    namespacesRequired: ['Home'],
-});
+// FeatureSection.getInitialProps = async () => ({
+//     namespacesRequired: ['Home'],
+// });
 
 // FeatureSection.propTypes = {
 //     t: PropTypes.func.isRequired,

@@ -1,7 +1,7 @@
 import { NextSeo } from 'next-seo';
 import Head from 'next/head';
 import React from 'react';
-import BacktoTop from '../../components/BacktoTop';
+import BacktoTop from '../../components/BacktoTop.client';
 import Layout from '../../components/Layout';
 import { seo } from '../../components/seo/user-manual';
 import CtaSection from '../../components/user-manual/CtaSection';
@@ -55,10 +55,10 @@ const Usermanual = () => {
 }
 
 export default Usermanual;
-export const getStaticProps = async () => {
-    return {
-        props: {
-            namespacesRequired: ['UserManual'],
-        },
-    };
-};
+// export const getStaticProps = async () => {
+//     return {
+//         props: {
+//             namespacesRequired: ['UserManual'],
+//         },
+//     };
+// };

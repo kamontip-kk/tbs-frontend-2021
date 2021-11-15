@@ -131,9 +131,9 @@ const SliderSection = () => {
     )
 }
     
-SliderSection.getInitialProps = async () => ({
-    namespacesRequired: ['Product'],
-});
+// SliderSection.getInitialProps = async () => ({
+//     namespacesRequired: ['Product'],
+// });
 
 // SliderSection.propTypes = {
 //     t: PropTypes.func.isRequired,

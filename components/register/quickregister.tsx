@@ -10,7 +10,7 @@ import en from '../../public/locales/en/QuickRegister.json';
 import { StoreContext } from '../context/store';
 import React, { useEffect, useContext } from 'react';
 import { useForm } from 'react-hook-form';
-import { login } from '../../services/user/user.service';
+import { login } from '../../services/user/user.service.server';
 import TagManager from 'react-gtm-module';
 
 type Inputs = {
@@ -209,10 +209,10 @@ const QuickRegisterComponents = () => {
         </div>
     );
 };
-QuickRegisterComponents.getInitialProps = async () => ({
-    // namespacesRequired: ['QuickRegister', 'ErrorMessage'],
-    namespacesRequired: ['QuickRegister'],
-});
+// QuickRegisterComponents.getInitialProps = async () => ({
+//     // namespacesRequired: ['QuickRegister', 'ErrorMessage'],
+//     namespacesRequired: ['QuickRegister'],
+// });
 
 // QuickRegisterComponents.propTypes = {
 //     t: PropTypes.func.isRequired,

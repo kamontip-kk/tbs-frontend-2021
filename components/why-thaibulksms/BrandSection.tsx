@@ -215,9 +215,9 @@ const WhyBrandSection = () => {
     )
 }
 
-WhyBrandSection.getInitialProps = async () => ({
-    namespacesRequired: ['WhyThaibulksms'],
-});
+// WhyBrandSection.getInitialProps = async () => ({
+//     namespacesRequired: ['WhyThaibulksms'],
+// });
 
 // WhyBrandSection.propTypes = {
 //     t: PropTypes.func.isRequired,

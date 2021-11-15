@@ -4,6 +4,7 @@ import dynamic from 'next/dynamic';
 import { useRouter } from 'next/router'
 import th from '../../public/locales/th/Home.json';
 import en from '../../public/locales/en/Home.json';
+// import useTranslation from "next-translate/useTranslation";
 
 const OwlCarousel = dynamic(import('react-owl-carousel'), {
     ssr: false,
@@ -156,9 +157,9 @@ const TestimonialSection = () => {
     )
     
 }
-TestimonialSection.getInitialProps = async () => ({
-    namespacesRequired: ['Home'],
-});
+// TestimonialSection.getInitialProps = async () => ({
+//     namespacesRequired: ['Home'],
+// });
 
 // TestimonialSection.propTypes = {
 //     t: PropTypes.func.isRequired,

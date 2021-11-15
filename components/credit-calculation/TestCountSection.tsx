@@ -157,9 +157,9 @@ const TestCountSection = ({}: any) => {
         </div>
     );
 };
-TestCountSection.getInitialProps = async () => ({
-    namespacesRequired: ['credit-calculation'],
-});
+// TestCountSection.getInitialProps = async () => ({
+//     namespacesRequired: ['credit-calculation'],
+// });
 
 // TestCountSection.propTypes = {
 //     t: PropTypes.func.isRequired,

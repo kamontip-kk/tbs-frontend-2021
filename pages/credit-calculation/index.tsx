@@ -6,7 +6,7 @@ import MultismsSection from '../../components/credit-calculation/MultismsSection
 import TestCountSection from '../../components/credit-calculation/TestCountSection';
 import TableTextSection from '../../components/credit-calculation/TableTextSection';
 import CtaSection from '../../components/credit-calculation/CtaSection';
-import BacktoTop from '../../components/BacktoTop';
+import BacktoTop from '../../components/BacktoTop.client';
 import Head from 'next/head';
 import { NextSeo } from 'next-seo';
 import { seo } from '../../components/seo/credit-calculation';
@@ -50,10 +50,10 @@ const credit = () => {
 //   namespacesRequired: ['creditMeta'],
 // });
 export default credit;
-export const getStaticProps = async () => {
-    return {
-        props: {
-            namespacesRequired: ['credit-calculation'],
-        },
-    };
-};
+// export const getStaticProps = async () => {
+//     return {
+//         props: {
+//             namespacesRequired: ['credit-calculation'],
+//         },
+//     };
+// };

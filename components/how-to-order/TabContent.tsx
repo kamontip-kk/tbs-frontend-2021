@@ -1162,9 +1162,9 @@ const TabContent = ({ defaultTab, setDefaultTab }: any) => {
     );
 };
 
-TabContent.getInitialProps = async () => ({
-    namespacesRequired: ['How-to-order'],
-});
+// TabContent.getInitialProps = async () => ({
+//     namespacesRequired: ['How-to-order'],
+// });
 
 // TabContent.propTypes = {
 //     t: PropTypes.func.isRequired,

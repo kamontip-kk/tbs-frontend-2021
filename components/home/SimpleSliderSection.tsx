@@ -344,9 +344,9 @@ const SimpleSliderSection = () => {
     );
 };
 
-SimpleSliderSection.getInitialProps = async () => ({
-    namespacesRequired: ['Home'],
-});
+// SimpleSliderSection.getInitialProps = async () => ({
+//     namespacesRequired: ['Home'],
+// });
 
 // SimpleSliderSection.propTypes = {
 //     t: PropTypes.func.isRequired,

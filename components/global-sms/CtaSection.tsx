@@ -34,9 +34,9 @@ const CtaSectionV2 = () => {
     </div>
     )
 }
-CtaSectionV2.getInitialProps = async () => ({
-    namespacesRequired: ['GlobalSMSPage'],
-});
+// CtaSectionV2.getInitialProps = async () => ({
+//     namespacesRequired: ['GlobalSMSPage'],
+// });
 
 // CtaSectionV2.propTypes = {
 //     t: PropTypes.func.isRequired,

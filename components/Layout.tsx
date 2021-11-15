@@ -1,7 +1,7 @@
-import Header from './Header';
-import BannerCookie from '../tbs_submodule/BannerCookie';
-import LeadGenForm from './LeadGenForm';
-import Footer from './Footer';
+import Header from './Header.client';
+import BannerCookie from '../tbs_submodule/BannerCookie.client';
+import LeadGenForm from './LeadGenForm.client';
+import Footer from './Footer.client';
 
 // import { i18n } from '../i18n';
 // import React, { useEffect } from 'react';

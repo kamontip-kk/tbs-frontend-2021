@@ -31,9 +31,9 @@ const HeroSectionV3 = () => {
     </div>)
 }
 
-HeroSectionV3.getInitialProps = async () => ({
-    namespacesRequired: ['Sms-alert'],
-});
+// HeroSectionV3.getInitialProps = async () => ({
+//     namespacesRequired: ['Sms-alert'],
+// });
 
 // HeroSectionV3.propTypes = {
 //     t: PropTypes.func.isRequired,

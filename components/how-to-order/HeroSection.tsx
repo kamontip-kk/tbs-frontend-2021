@@ -110,9 +110,9 @@ const HeroSection = ({ defaultTab, setDefaultTab }: any) => {
     );
 };
 
-HeroSection.getInitialProps = async () => ({
-    namespacesRequired: ['How-to-order'],
-});
+// HeroSection.getInitialProps = async () => ({
+//     namespacesRequired: ['How-to-order'],
+// });
 
 // HeroSection.propTypes = {
 //     t: PropTypes.func.isRequired,

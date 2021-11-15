@@ -73,9 +73,9 @@ const SmsSectionV3 = () => {
     )
 }
 
-SmsSectionV3.getInitialProps = async () => ({
-    namespacesRequired: ['SMSAPIPage'],
-});
+// SmsSectionV3.getInitialProps = async () => ({
+//     namespacesRequired: ['SMSAPIPage'],
+// });
 
 // SmsSectionV3.propTypes = {
 //     t: PropTypes.func.isRequired,

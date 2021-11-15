@@ -73,9 +73,9 @@ const SmsSection = () => {
         </div>
     );
 };
-SmsSection.getInitialProps = async () => ({
-    namespacesRequired: ['Pricing'],
-});
+// SmsSection.getInitialProps = async () => ({
+//     namespacesRequired: ['Pricing'],
+// });
 
 // SmsSection.propTypes = {
 //     t: PropTypes.func.isRequired,

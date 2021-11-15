@@ -262,9 +262,9 @@ const PromoSection = () => {
 }
     
 
-PromoSection.getInitialProps = async () => ({
-    namespacesRequired: ['Product'],
-});
+// PromoSection.getInitialProps = async () => ({
+//     namespacesRequired: ['Product'],
+// });
 
 // PromoSection.propTypes = {
 //     t: PropTypes.func.isRequired,

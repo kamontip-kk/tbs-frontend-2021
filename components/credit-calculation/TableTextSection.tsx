@@ -82,9 +82,9 @@ const TrackSection = ({  }: any) => {
     </div>
     )
 }
-TrackSection.getInitialProps = async () => ({
-    namespacesRequired: ['Otp'],
-});
+// TrackSection.getInitialProps = async () => ({
+//     namespacesRequired: ['Otp'],
+// });
 
 // TrackSection.propTypes = {
 //     t: PropTypes.func.isRequired,

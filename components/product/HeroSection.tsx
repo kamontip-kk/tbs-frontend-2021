@@ -80,9 +80,9 @@ const HeroSection = () =>{
     )
 }
 
-HeroSection.getInitialProps = async () => ({
-    namespacesRequired: ['Product'],
-});
+// HeroSection.getInitialProps = async () => ({
+//     namespacesRequired: ['Product'],
+// });
 
 // HeroSection.propTypes = {
 //     t: PropTypes.func.isRequired,

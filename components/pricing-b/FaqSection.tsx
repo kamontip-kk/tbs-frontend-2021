@@ -464,9 +464,9 @@ const FaqSection = () => {
     );
 };
 
-FaqSection.getInitialProps = async () => ({
-    namespacesRequired: ['Pricing'],
-});
+// FaqSection.getInitialProps = async () => ({
+//     namespacesRequired: ['Pricing'],
+// });
 
 // FaqSection.propTypes = {
 //     t: PropTypes.func.isRequired,

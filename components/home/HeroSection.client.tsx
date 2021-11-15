@@ -52,9 +52,9 @@ const HeroSectionV2 = () => {
     
 }
 
-HeroSectionV2.getInitialProps = async () => ({
-    namespacesRequired: ['Home'],
-});
+// HeroSectionV2.getInitialProps = async () => ({
+//     namespacesRequired: ['Home'],
+// });
 
 // HeroSectionV2.propTypes = {
 //     t: PropTypes.func.isRequired,

@@ -5,7 +5,7 @@ import HeroSection from '../../components/service-level-agreement/HeroSection';
 import SmsSection from '../../components/service-level-agreement/SmsSection';
 import SimpleIconSection from '../../components/service-level-agreement/SimpleIconSection';
 import CtaSection from '../../components/service-level-agreement/CtaSection';
-import BacktoTop from '../../components/BacktoTop';
+import BacktoTop from '../../components/BacktoTop.client';
 import Head from 'next/head';
 import { NextSeo } from 'next-seo';
 import { seo } from '../../components/seo/service-level-agreement';
@@ -49,10 +49,10 @@ const seviceLevel = () => {
 //   namespacesRequired: ['whitelistMeta'],
 // });
 export default seviceLevel;
-export const getStaticProps = async () => {
-    return {
-        props: {
-            namespacesRequired: ['service-level-agreement'],
-        },
-    };
-};
+// export const getStaticProps = async () => {
+//     return {
+//         props: {
+//             namespacesRequired: ['service-level-agreement'],
+//         },
+//     };
+// };

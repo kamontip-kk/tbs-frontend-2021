@@ -92,9 +92,9 @@ const FaqSection = () => {
     )
 }
     
-FaqSection.getInitialProps = async () => ({
-    namespacesRequired: ['WhyThaibulksms'],
-});
+// FaqSection.getInitialProps = async () => ({
+//     namespacesRequired: ['WhyThaibulksms'],
+// });
 
 // FaqSection.propTypes = {
 //     t: PropTypes.func.isRequired,

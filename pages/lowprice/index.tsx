@@ -7,7 +7,7 @@ import HeroSection from '../../components/lowprice/HeroSection';
 import SmsSection from '../../components/lowprice/SmsSection';
 import SimpleIconSection from '../../components/lowprice/SimpleIconSection';
 import CtaSection from '../../components/lowprice/CtaSection';
-import BacktoTop from '../../components/BacktoTop';
+import BacktoTop from '../../components/BacktoTop.client';
 import Head from 'next/head';
 import { NextSeo } from 'next-seo';
 import { seo } from '../../components/seo/lowprice';
@@ -51,11 +51,11 @@ const Lowprice = () => {
 //   namespacesRequired: ['LowpriceMeta'],
 // });
 export default Lowprice;
-export const getStaticProps = async () => {
-    return {
-        props: {
-            namespacesRequired: ['Lowprice'],
-        },
-    };
-};
+// export const getStaticProps = async () => {
+//     return {
+//         props: {
+//             namespacesRequired: ['Lowprice'],
+//         },
+//     };
+// };
 

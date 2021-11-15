@@ -1,7 +1,7 @@
 import { NextSeo } from 'next-seo';
 import Head from 'next/head';
 import React from 'react';
-import BacktoTop from '../../components/BacktoTop';
+import BacktoTop from '../../components/BacktoTop.client';
 import Layout from '../../components/Layout';
 import CtaSection from '../../components/sms-marketing/CtaSection';
 import DesSection from '../../components/sms-marketing/DesSection';
@@ -59,10 +59,10 @@ const SmsMarketing = () => {
 }
 
 export default SmsMarketing;
-export const getStaticProps = async () => {
-    return {
-        props: {
-            namespacesRequired: ['Sms-marketing'],
-        },
-    };
-};
+// export const getStaticProps = async () => {
+//     return {
+//         props: {
+//             namespacesRequired: ['Sms-marketing'],
+//         },
+//     };
+// };

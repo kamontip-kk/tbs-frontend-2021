@@ -107,9 +107,9 @@ const SimpleIconSection = () => {
     )
 }
 
-SimpleIconSection.getInitialProps = async () => ({
-    namespacesRequired: ['Sms-alert'],
-});
+// SimpleIconSection.getInitialProps = async () => ({
+//     namespacesRequired: ['Sms-alert'],
+// });
 
 // SimpleIconSection.propTypes = {
 //     t: PropTypes.func.isRequired,

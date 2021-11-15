@@ -33,9 +33,9 @@ const HeroSectionV3 = () => {
     )
 }
 
-HeroSectionV3.getInitialProps = async () => ({
-    namespacesRequired: ['Sms-marketing'],
-});
+// HeroSectionV3.getInitialProps = async () => ({
+//     namespacesRequired: ['Sms-marketing'],
+// });
 
 // HeroSectionV3.propTypes = {
 //     t: PropTypes.func.isRequired,

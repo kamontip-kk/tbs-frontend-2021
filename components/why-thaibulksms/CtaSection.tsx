@@ -50,9 +50,9 @@ const CtaSectionV2 = () => {
     )
 }
 
-CtaSectionV2.getInitialProps = async () => ({
-    namespacesRequired: ['WhyThaibulksms'],
-});
+// CtaSectionV2.getInitialProps = async () => ({
+//     namespacesRequired: ['WhyThaibulksms'],
+// });
 
 // CtaSectionV2.propTypes = {
 //     t: PropTypes.func.isRequired,

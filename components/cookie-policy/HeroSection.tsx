@@ -54,9 +54,9 @@ const HeroSection = () => {
     );
 };
 
-HeroSection.getInitialProps = async () => ({
-    namespacesRequired: ['CookiePolicy'],
-});
+// HeroSection.getInitialProps = async () => ({
+//     namespacesRequired: ['CookiePolicy'],
+// });
 
 // HeroSection.propTypes = {
 //     t: PropTypes.func.isRequired,

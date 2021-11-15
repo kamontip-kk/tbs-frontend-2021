@@ -160,9 +160,9 @@ const HeroSection = () => {
     );
 };
 
-HeroSection.getInitialProps = async () => ({
-    namespacesRequired: ['Condition'],
-});
+// HeroSection.getInitialProps = async () => ({
+//     namespacesRequired: ['Condition'],
+// });
 
 // HeroSection.propTypes = {
 //     t: PropTypes.func.isRequired,

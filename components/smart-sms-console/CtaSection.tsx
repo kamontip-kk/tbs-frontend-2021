@@ -49,9 +49,9 @@ const CtaSectionV2 = () => {
     )
 }
     
-CtaSectionV2.getInitialProps = async () => ({
-    namespacesRequired: ['SmartSmsConsole'],
-});
+// CtaSectionV2.getInitialProps = async () => ({
+//     namespacesRequired: ['SmartSmsConsole'],
+// });
 
 // CtaSectionV2.propTypes = {
 //     t: PropTypes.func.isRequired,

@@ -37,9 +37,9 @@ const CtaSectionV2 = () => {
 }
     
 
-CtaSectionV2.getInitialProps = async () => ({
-    namespacesRequired: ['Sms-alert'],
-});
+// CtaSectionV2.getInitialProps = async () => ({
+//     namespacesRequired: ['Sms-alert'],
+// });
 
 // CtaSectionV2.propTypes = {
 //     t: PropTypes.func.isRequired,

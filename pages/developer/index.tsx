@@ -1,7 +1,7 @@
 import { NextSeo } from 'next-seo';
 import Head from 'next/head';
 import React from 'react';
-import BacktoTop from '../../components/BacktoTop';
+import BacktoTop from '../../components/BacktoTop.client';
 import Layout from '../../components/Layout';
 import { seo } from '../../components/seo/developer';
 import CtaSection from '../../components/developer/CtaSection';
@@ -53,10 +53,10 @@ const Developer = () => {
 }
 
 export default Developer;
-export const getStaticProps = async () => {
-    return {
-        props: {
-            namespacesRequired: ['Developer'],
-        },
-    };
-};
+// export const getStaticProps = async () => {
+//     return {
+//         props: {
+//             namespacesRequired: ['Developer'],
+//         },
+//     };
+// };

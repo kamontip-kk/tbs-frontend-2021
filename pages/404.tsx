@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import Layout from '../components/Layout';
-import Components404 from '../components/404/404';
+import Components404 from '../components/404/404.client';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 // import th from '../public/locales/th/Home.json';
@@ -13,34 +13,36 @@ const Custom404 = () => {
     let firstCheck = paths[1];
     let secCheck = paths[2];
     useEffect(() => {
-        if (firstCheck === 'blog') {
-            if (secCheck) {
-                window.location.replace(
-                    `https://www.thaibulksms.com/blog/${secCheck}`
-                );
-                return;
-            }
-            window.location.replace(`https://www.thaibulksms.com/blog/`);
-            return;
-        }
-        if (link['tbs'][firstCheck] !== undefined) {
-            if (typeof link['tbs'][firstCheck] === 'object') {
-                if (link['tbs'][firstCheck][secCheck] !== undefined) {
-                    router.push('/' + link['tbs'][firstCheck][secCheck]);
-                    return;
-                }
-            } else {
-                router.push('/' + link['tbs'][firstCheck]);
-                return;
-            }
-        }
-        if (link['dev'][firstCheck] !== undefined) {
-            if (typeof link['dev'][firstCheck] === 'object') {
-                if (link['dev'][firstCheck][secCheck] !== undefined) {
+        if (typeof window !== "undefined") {
+            if (firstCheck === 'blog') {
+                if (secCheck) {
                     window.location.replace(
-                        `${process.env.NEXT_PUBLIC_WEB_URL_DEVELOPER}`
+                        `https://www.thaibulksms.com/blog/${secCheck}`
                     );
                     return;
+                }
+                window.location.replace(`https://www.thaibulksms.com/blog/`);
+                return;
+            }
+            if (link['tbs'][firstCheck] !== undefined) {
+                if (typeof link['tbs'][firstCheck] === 'object') {
+                    if (link['tbs'][firstCheck][secCheck] !== undefined) {
+                        router.push('/' + link['tbs'][firstCheck][secCheck]);
+                        return;
+                    }
+                } else {
+                    router.push('/' + link['tbs'][firstCheck]);
+                    return;
+                }
+            }
+            if (link['dev'][firstCheck] !== undefined) {
+                if (typeof link['dev'][firstCheck] === 'object') {
+                    if (link['dev'][firstCheck][secCheck] !== undefined) {
+                        window.location.replace(
+                            `${process.env.NEXT_PUBLIC_WEB_URL_DEVELOPER}`
+                        );
+                        return;
+                    }
                 }
             }
         }

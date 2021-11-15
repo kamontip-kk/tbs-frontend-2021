@@ -24,9 +24,9 @@ const Components404 = () => (
         </div>
     </div>
 );
-Components404.getInitialProps = async () => ({
-    namespacesRequired: ['Thankyou'],
-});
+// Components404.getInitialProps = async () => ({
+//     namespacesRequired: ['Thankyou'],
+// });
 
 // Components404.propTypes = {
 //     t: PropTypes.func.isRequired,

@@ -44,9 +44,9 @@ const CollapseItem = (props: any) => {
         </div>
     );
 };
-CollapseItem.getInitialProps = async () => ({
-    namespacesRequired: ['FAQcallap'],
-});
+// CollapseItem.getInitialProps = async () => ({
+//     namespacesRequired: ['FAQcallap'],
+// });
 
 // CollapseItem.propTypes = {
 //     t: PropTypes.func.isRequired,

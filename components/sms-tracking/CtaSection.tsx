@@ -47,9 +47,9 @@ const CtaSectionV3 = () => {
 }
     
 
-CtaSectionV3.getInitialProps = async () => ({
-    namespacesRequired: ['Sms-tracking'],
-});
+// CtaSectionV3.getInitialProps = async () => ({
+//     namespacesRequired: ['Sms-tracking'],
+// });
 
 // CtaSectionV3.propTypes = {
 //     t: PropTypes.func.isRequired,

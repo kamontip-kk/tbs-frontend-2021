@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Cookie from 'js-cookie';
 import appConfig from '../appConfig';
 import HeaderSubmodule from '../tbs_submodule/HeaderSubmodule.js';
-import MyHeader from '../components/myHeader';
+import MyHeader from './myHeader';
 import { useRouter } from 'next/router';
 import th from '../public/locales/th/Header.json';
 import en from '../public/locales/en/Header.json';

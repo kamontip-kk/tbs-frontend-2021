@@ -2,13 +2,13 @@ import React from 'react';
 import dynamic from 'next/dynamic';
 import Layout from '../../components/Layout';
 import HeroSection from '../../components/contact/HeroSection';
-import Help from '../../components/Help';
+import Help from '../../components/Helpclient';
 // import BacktoTop from '../../components/BacktoTop';
 import Head from 'next/head';
 import Image from 'next/image'
 import { NextSeo } from 'next-seo';
 import { seo } from '../../components/seo/contact';
-const BacktoTop = dynamic(() => import('../../components/BacktoTop'));
+const BacktoTop = dynamic(() => import('../../components/BacktoTop.client'));
 import { useRouter } from 'next/router';
 import th from '../../public/locales/th/Contact.json'
 import en from '../../public/locales/en/Contact.json'
@@ -79,10 +79,10 @@ const Contact = () => {
 //   namespacesRequired: ['ContactMeta'],
 // });
 export default Contact;
-export const getStaticProps = async () => {
-    return {
-        props: {
-            namespacesRequired: ['Contact'],
-        },
-    };
-};
+// export const getStaticProps = async () => {
+//     return {
+//         props: {
+//             namespacesRequired: ['Contact'],
+//         },
+//     };
+// };

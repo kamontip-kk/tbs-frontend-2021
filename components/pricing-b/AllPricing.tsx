@@ -9,7 +9,7 @@ import { useRouter } from 'next/router'
 import th from '../../public/locales/th/Pricing.json';
 import en from '../../public/locales/en/Pricing.json';
 import { Product, ProductPackage } from '../../services/shopping/pricing.model';
-import { decodeTBSToken } from '../../services/user/user.service';
+import { decodeTBSToken } from '../../services/user/user.service.server';
 import Link from 'next/dist/client/link';
 import Image from 'next/image';
 const classnames = require('classnames');
@@ -424,9 +424,9 @@ const AllPricing = ({ packages }: any) => {
     );
 };
 
-AllPricing.getInitialProps = async () => ({
-    namespacesRequired: ['Pricing'],
-});
+// AllPricing.getInitialProps = async () => ({
+//     namespacesRequired: ['Pricing'],
+// });
 
 // AllPricing.propTypes = {
 //     t: PropTypes.func.isRequired,

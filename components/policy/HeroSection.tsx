@@ -152,9 +152,9 @@ const HeroSection = () => {
     );
 };
 
-HeroSection.getInitialProps = async () => ({
-    namespacesRequired: ['Policy'],
-});
+// HeroSection.getInitialProps = async () => ({
+//     namespacesRequired: ['Policy'],
+// });
 
 // HeroSection.propTypes = {
 //     t: PropTypes.func.isRequired,

@@ -75,9 +75,9 @@ const SmsSectionV4 = () => {
     )
 }
     
-SmsSectionV4.getInitialProps = async () => ({
-    namespacesRequired: ['Sms-tracking'],
-});
+// SmsSectionV4.getInitialProps = async () => ({
+//     namespacesRequired: ['Sms-tracking'],
+// });
 
 // SmsSectionV4.propTypes = {
 //     t: PropTypes.func.isRequired,

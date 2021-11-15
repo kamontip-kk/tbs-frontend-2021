@@ -2,7 +2,7 @@ import axios from 'axios';
 // import * as fbq from 'fbq';
 import Cookie from 'js-cookie';
 import { DefaultSeo } from 'next-seo';
-import App from 'next/app';
+// import App from 'next/app';
 import Router, { useRouter } from 'next/router';
 import React, { useEffect } from 'react';
 // import TagManager from 'react-gtm-module';
@@ -163,9 +163,9 @@ function MyApp({ Component, pageProps }: any) {
     );
 }
 
-MyApp.getInitialProps = async (appContext: any) => {
-    const appProps = await App.getInitialProps(appContext);
-    return { ...appProps };
-};
+// MyApp.getInitialProps = async (appContext: any) => {
+//     const appProps = await App.getInitialProps(appContext);
+//     return { ...appProps };
+// };
 
 export default MyApp;

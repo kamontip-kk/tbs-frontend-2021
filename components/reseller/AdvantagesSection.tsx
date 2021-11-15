@@ -47,9 +47,9 @@ const TrackSection = () => {
     )
 }
     
-TrackSection.getInitialProps = async () => ({
-    namespacesRequired: ['ResellerPage'],
-});
+// TrackSection.getInitialProps = async () => ({
+//     namespacesRequired: ['ResellerPage'],
+// });
 
 // TrackSection.propTypes = {
 //     t: PropTypes.func.isRequired,

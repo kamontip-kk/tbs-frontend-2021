@@ -9,7 +9,7 @@ import numeral from 'numeral';
 import TagManager from 'react-gtm-module';
 import Cookie from 'js-cookie';
 import appConfig from '../../appConfig';
-import { CheckFirstPurchase } from '../../services/shopping/payment.service';
+import { CheckFirstPurchase } from '../../services/shopping/payment.service.server';
 import Image from 'next/image';
 
 const myLoader = ({src}:any) => {
@@ -29,6 +29,7 @@ const BuyPackage = (packageItem: ProductPackage) => {
     else if (appConfig.APP_ENV === appConfig.internalTest)
         domain = '.1mobyline.com';
 
+        
     Cookie.set('packageId', packageItem.productId.toString(), { domain });
     window.location.replace(
         `${process.env.NEXT_PUBLIC_WEB_URL_SHOPPING}/payment/`
@@ -400,9 +401,9 @@ const FirstPurchase = ({ packages, packagesNormal }: any) => {
     );
 };
 
-FirstPurchase.getInitialProps = async () => ({
-    namespacesRequired: ['Pricing'],
-});
+// FirstPurchase.getInitialProps = async () => ({
+//     namespacesRequired: ['Pricing'],
+// });
 
 // FirstPurchase.propTypes = {
 //     t: PropTypes.func.isRequired,

@@ -6,7 +6,7 @@ import TagManager from 'react-gtm-module';
 import Swal from 'sweetalert2';
 import appConfig from '../../appConfig';
 import { Product, ProductPackage } from '../../services/shopping/pricing.model';
-import { decodeTBSToken } from '../../services/user/user.service';
+import { decodeTBSToken } from '../../services/user/user.service.server';
 import Link from 'next/dist/client/link';
 import { useRouter } from 'next/router'
 import th from '../../public/locales/th/Pricing.json';
@@ -429,9 +429,9 @@ const AllPricing = ({ packages }: any) => {
     );
 };
 
-AllPricing.getInitialProps = async () => ({
-    namespacesRequired: ['Pricing'],
-});
+// AllPricing.getInitialProps = async () => ({
+//     namespacesRequired: ['Pricing'],
+// });
 
 // AllPricing.propTypes = {
 //     t: PropTypes.func.isRequired,

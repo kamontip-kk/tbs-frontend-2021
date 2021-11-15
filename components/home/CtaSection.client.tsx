@@ -49,9 +49,9 @@ const CtaSection = () =>{
     )
 }
 
-CtaSection.getInitialProps = async () => ({
-    namespacesRequired: ['Home'],
-});
+// CtaSection.getInitialProps = async () => ({
+//     namespacesRequired: ['Home'],
+// });
 
 // CtaSection.propTypes = {
 //     t: PropTypes.func.isRequired,

@@ -107,9 +107,9 @@ const ContentSection = ({ Posts }: any) => {
     )
 }
 
-ContentSection.getInitialProps = async () => ({
-    namespacesRequired: ['Resource'],
-});
+// ContentSection.getInitialProps = async () => ({
+//     namespacesRequired: ['Resource'],
+// });
 
 // ContentSection.propTypes = {
 //     t: PropTypes.func.isRequired,

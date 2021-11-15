@@ -67,9 +67,9 @@ const SmsSectionV3 = () => {
     )
 }
 
-SmsSectionV3.getInitialProps = async () => ({
-    namespacesRequired: ['WhyThaibulksms'],
-});
+// SmsSectionV3.getInitialProps = async () => ({
+//     namespacesRequired: ['WhyThaibulksms'],
+// });
 
 // SmsSectionV3.propTypes = {
 //     t: PropTypes.func.isRequired,

@@ -135,9 +135,9 @@ const PartnerSection = () => {
     )
 }
 
-PartnerSection.getInitialProps = async () => ({
-    namespacesRequired: ['Home'],
-});
+// PartnerSection.getInitialProps = async () => ({
+//     namespacesRequired: ['Home'],
+// });
 
 // PartnerSection.propTypes = {
 //     t: PropTypes.func.isRequired,

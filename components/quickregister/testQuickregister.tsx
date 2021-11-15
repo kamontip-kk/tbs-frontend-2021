@@ -42,9 +42,9 @@ const TestQuickregister = () => {
     );
 };
 
-TestQuickregister.getInitialProps = async () => ({
-    namespacesRequired: ['Home'],
-});
+// TestQuickregister.getInitialProps = async () => ({
+//     namespacesRequired: ['Home'],
+// });
 
 // TestQuickregister.propTypes = {
 //     t: PropTypes.func.isRequired,

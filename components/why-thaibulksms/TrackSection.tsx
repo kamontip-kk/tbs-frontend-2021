@@ -110,9 +110,9 @@ const TrackSection = () => {
     )
 }
 
-TrackSection.getInitialProps = async () => ({
-    namespacesRequired: ['WhyThaibulksms'],
-});
+// TrackSection.getInitialProps = async () => ({
+//     namespacesRequired: ['WhyThaibulksms'],
+// });
 
 // TrackSection.propTypes = {
 //     t: PropTypes.func.isRequired,

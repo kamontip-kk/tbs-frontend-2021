@@ -114,9 +114,9 @@ const SmsSection = () => {
         </div>
     );
 };
-SmsSection.getInitialProps = async () => ({
-    namespacesRequired: ['Product'],
-});
+// SmsSection.getInitialProps = async () => ({
+//     namespacesRequired: ['Product'],
+// });
 
 // SmsSection.propTypes = {
 //     t: PropTypes.func.isRequired,

@@ -119,9 +119,9 @@ const SmsSectionV2 = () => {
     );
 };
 
-SmsSectionV2.getInitialProps = async () => ({
-    namespacesRequired: ['Home'],
-});
+// SmsSectionV2.getInitialProps = async () => ({
+//     namespacesRequired: ['Home'],
+// });
 
 // SmsSectionV2.propTypes = {
 //     t: PropTypes.func.isRequired,
